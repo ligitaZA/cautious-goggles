@@ -74,7 +74,25 @@
     }
   ],
   "subscriptions": [
-    {},
-    {}
+    {
+      "name": "Joy Shaheb",
+      "imageUrl": "https://yt3.ggpht.com/ytc/AMLnZu-9Jp5QDAFyj8hrr6gnTvAI8VYXurEhZGVnVX0r=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "name": "Open Play",
+      "imageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9h8pI1i5RRu-t4J1sSSw7hcgzEm_77hjw5n6_l=s88-c-k-c0x00ffffff-no-rj"
+    },{
+      "name": "Zimmy Bigos",
+      "imageUrl": "https://yt3.ggpht.com/ytc/AMLnZu9-DXgqh_SSeg7I2e1doakw59ul6P7BxVUEKa84Bl8=s88-c-k-c0x00ffffff-no-rj"
+    },{
+      "name": "Shadow Music",
+      "imageUrl": "https://yt3.ggpht.com/ezh314crjPN2lY0hjwhlbSAEYdqax0pE7igy3-wPngmKmBKDgDslc3p5YXKEs35-To6lksu5ww=s88-c-k-c0x00ffffff-no-rj"
+    },{
+      "name": "Desert Rose",
+      "imageUrl": "https://yt3.ggpht.com/ahEUZ10lV4SXIBHIcdFRNNWpJMLXCV3nFBny_cRyYhifmz6oKpc9m8sbNU6ymCgyfMPajs6rFQ=s88-c-k-c0x00ffffff-no-rj"
+    },{
+      "name": "Hayden James",
+      "imageUrl": "https://yt3.ggpht.com/drc_3RB_qMzNEPLNPddaB2doDhZF0BLiN7CwW1HzgvErZg_TZ8sHp65EBRaZ0JxZH1zDMix-dQ=s88-c-k-c0x00ffffff-no-rj"
+    }
   ]
 }
