@@ -96,13 +96,29 @@ form input {
 .side-bar{
   position: fixed;
   width: auto;
+  margin-top: 70px;
+  height: 860px;
+  overflow-y: scroll;
+  display: block; 
+}
+.side-bar::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+.side-bar::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+.side-bar > p {
+  padding-left: 20px;
+  font-size: 18px;
 }
 .nav {
   width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
-  margin-top: 55px;
 }
 .nav-link {
   display: flex;
@@ -175,15 +191,15 @@ hr {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 5px; 
-  padding-left: 250px;
+  padding-left: 270px;
   padding-top: 110px;
+  padding-right: 70px;
 }
 
 .video {
-  width: 300px;
+  width: 350px;
+  height: 350px;
   margin-top: 10px;
-  margin-bottom: 20px;
   cursor: pointer;
 }
 img {
@@ -191,7 +207,7 @@ img {
 }
 .thumbnail {
   width: 100%;
-  height: 170px;
+  height: 250px;
 }
 
 .thumbnail img {
