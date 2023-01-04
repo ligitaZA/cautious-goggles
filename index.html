@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./main.js" defer></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./main.css">
+  
+  <title>Git ir Github įvadas ir pagrindai</title>
+</head>
+<body>
+  <!-- <section id="git">
+    <h1>Git ir Github</h1>
+    <p>
+      <strong>Git</strong> yra kodo versijavimo programa
+    </p>
+    <p>
+      <strong>GitHub</strong> svetainė, kurioje keliamos kodo versijos.
+    </p>
+    <ol>
+      <li>Įsirašyti Git</li>
+      <li>patikrinti ar įrašytas terminale git --v</li>
+      <li>susikurti github</li>
+      <li>cinfig'inti git'ą</li>
+      <ol>
+        <li>git config --global user.name ligitaZA</li>
+        <li>git config --global user.email ligitazaicevaite@gmail.com</li>
+        <li>git config --global core.editor code</li>
+        <li>git config --global core.autocrlf true</li>
+        <li>git config --global -e</li>
+      </ol>
+      <li>Patikrinti ar tvarkingas config failas - git config --global --edit</li>
+      <li>Publish to Github</li>
+    </ol>
+  </section>
+  <section id="terminaloKomandos">
+    <h1>Terminalo komandos</h1>
+    <ul>
+      <li>ls / dir - rodo kuriame faile/aplankale esi. ls -a - parodys ir užslėptą failą</li>
+      <li>cd - changeDirectory - keičia direkoriją, leidžia vaikščioti tarp aplankalų</li>
+      <li>tab - skirtas užbaigti / užpildyti terminalo komandą / pateikti pasiūlymus</li>
+      <li>vidurinis / dešinys pelės mygtukas - įklijuoja tekstą i komandinę eilutę</li>
+      <li>arrow up/down - vaikščiojimas per terminalo komandų istoriją</li>
+    </ul>
+
+  </section>
+  <section id="gitKomandos">
+    <h1>Git Komandos</h1>
+    <ul>
+      <li>git init - inicializuoja Git repozitoriją</li>
+      <li>git status - parodo git repozitorijos statusą</li>
+      <li>git add ./*/- pridėti failus prie commitinimui paruoštų failų</li>
+      <li>git commit -m "zinute" - sukuriama kodo versija su žinute</li>
+      <li>git push - nusiunčia naujus commitus į serverį</li>
+      <li>git checkout commitID - nukeliauja į nurodytą kodo versiją</li>
+    </ul>
+  </section> -->
+  <!-- Atliekant žemiau pateiktą užduotį, tvarkingai ir teisingai versijuojant kodą. (kas kažkokį gabaliuką kodo - daryti naują commit'ą su prasminga žinute (commit žinutės turėtų būti iki 50 simbolių)).
+
+Atkurti https://www.youtube.com puslapio menu, sidebarMenu ir korteles. (jokių kitų papildomų puslapių nereikia (menu niekur nenukreipia)). -->
+
+
+ <header class="header">
+    <div class="logo kaire">
+      <i id="menu" class="material-icons">menu</i>
+      <img class="youtube" src="https://raw.githubusercontent.com/DonFranklie/Learning-htmlandcss/4ff005ec2b3249c52effc58ab3f92a4a74a4fd97/Youtube-clone/YouTube%20Icons/youtube-logo.svg" alt="youtubeLogo">
+    </div>
+
+    <div class="searching bar">
+      <form>
+        <input type="text" placeholder="Ieškoti" />
+        <button><i class="material-icons">search</i></button>
+      </form>
+      <i class="material-icons mic">mic</i>
+    </div>
+
+    <div class="icons right">
+      <i class="material-icons">videocam</i>
+      <i class="material-icons">notifications</i>
+      <i class="material-icons display-this">account_circle</i>
+    </div>
+ </header>
+<main>
+  <div class="side-bar">
+    <div class="nav">
+      <a class="nav-link active">
+         <i class="material-icons">home</i>
+         <span>Pagrindinis</span>
+      </a>
+      <a class="nav-link">
+         <i class="material-icons">local_fire_department</i>
+         <span>Shorts</span>
+      </a>
+      <a class="nav-link">
+         <i class="material-icons">subscriptions</i>
+         <span>Prenumeratos</span>
+      </a>
+    </div>
+    <hr>
+    <a class="nav-link">
+      <i class="material-icons">library_add_check</i>
+      <span>Videoteka</span>
+   </a>
+   <a class="nav-link">
+      <i class="material-icons">history</i>
+      <span>Istorija</span>
+   </a>
+   <a class="nav-link">
+      <i class="material-icons">play_arrow</i>
+      <span>Jūsų vaizdo įrašai</span>
+   </a>
+   <a class="nav-link">
+    <i class="fa fa-film material-icons" style="font-size:24px"></i>
+    <span>Jūsų filmai</span>
+   </a>
+   <a class="nav-link">
+      <i class="material-icons">watch_later</i>
+      <span>Žiūrėti vėliau</span>
+   </a>
+   <a class="nav-link">
+      <i class="material-icons">thumb_up</i>
+      <span>Patikę vaizdo įrašai</span>
+   </a>
+   <hr>
+   <a class="nav-link">
+    <i class="material-icons" style="font-size:24px">settings</i>
+    <span>Nustatymai</span>
+   </a>
+   <a class="nav-link">
+      <i class="material-icons">flag</i>
+      <span>Pranešimų istorija</span>
+   </a>
+   <a class="nav-link">
+      <i class="fa fa-question-circle-o material-icons" style="font-size:24px"></i>
+      <span>Pagalba</span>
+   </a>
+   <a class="nav-link">
+      <i class="fa fa-exclamation-circle material-icons" style="font-size:24px"></i>
+      <span>Siųsti atsiliepimą</span>
+   </a>
+   <hr>
+   <p class="copyrights"><i class="fa fa-copyright"></i>  2023 Google LLC</p>
+    </div>
+
+    <div class="choises">
+      <input type="button" value="Viskas" class="button on">
+      <input type="button" value="Tiesiogiai" class="button">
+      <input type="button" value="Rinkiniai" class="button">
+      <input type="button" value="Muzika" class="button">
+      <input type="button" value="Turistų lankomos vietos" class="button">
+      <input type="button" value="Animaciniai filmukai" class="button">
+      <input type="button" value="Gamta" class="button">
+      <input type="button" value="Repas" class="button">
+      <input type="button" value="Nesenai įkelta" class="button">
+      <input type="button" value="Žiūrėta" class="button">
+      <input type="button" value="Kas nors naujo" class="button">
+    </div>
+    <div class="videos">
+      <!-- a video starts -->
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+        <div class="video">
+           <div class="thumbnail">
+              <img src="https://i.ytimg.com/vi/MaV6O_2Iduo/hq720_live.jpg?sqp=CNjb0J0G-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB5uhBwDRRVR8jYTzgxs_GBvclUhg" alt="" />
+            </div>
+    
+              <div class="details">
+                 <div class="author">
+                    <img src="https://i.ytimg.com/vi/jgjHUUiq5EM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCTcSOmtS8cL0uaHILJAKiMu8E89w" alt="lofi" />
+                 </div>
+                 <div class="title">
+                    <h3>
+                        Relax. Smooth Lofi Beats To Study, Work
+                     </h3>
+                     <a href="">
+                            Francesco Ciulla
+                      </a>
+                      <span> 2M Views • 3 Months Ago </span>
+                 </div>
+               </div>
+    
+             </div>
+       <!-- a video Ends -->
+     </div>
+</main>
+
+</body>
+</html>
